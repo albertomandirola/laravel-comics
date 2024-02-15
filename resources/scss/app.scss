@@ -1,1 +1,19 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    height: 75px;
+
+    img {
+        width: 50px;
+    }
+
+    li {
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
+
+}
