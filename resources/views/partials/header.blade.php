@@ -14,7 +14,7 @@
                         </li>
 
                         <li>
-                            <a href="">COMICS</a>
+                            <a href="comics">COMICS</a>
                         </li>
 
                         <li>
