@@ -10,7 +10,7 @@
                 <div class="header-list-container h-100">
                     <ul class="list-unstyled d-flex justify-content-between align-items-center h-100">
                         <li>
-                            <a href="">CHARACTERS</a>
+                            <a href="">HOME</a>
                         </li>
 
                         <li>
