@@ -16,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $socials = config('social');
     $footer_lists = config('footer');
-    $comics = config('comics');
-    return view('home', compact('comics', 'socials', 'footer_lists'));
+    return view('home', compact( 'socials', 'footer_lists'));
 });
+
+Route::get('/comics', function () {
+    $socials = config('social');
+    $footer_lists = config('footer');
+    $comics = config('comics');
+    return view('comics', compact('comics', 'socials', 'footer_lists'));
+})->name('comics');
+
