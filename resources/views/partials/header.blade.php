@@ -10,11 +10,11 @@
                 <div class="header-list-container h-100">
                     <ul class="list-unstyled d-flex justify-content-between align-items-center h-100">
                         <li>
-                            <a href="">HOME</a>
+                            <a href="{{ Route('home') }}">HOME</a>
                         </li>
 
                         <li>
-                            <a href="comics">COMICS</a>
+                            <a href="{{ Route('comics') }}">COMICS</a>
                         </li>
 
                         <li>

@@ -41,5 +41,5 @@ Route::get('/comics/comic_details/{param}', function ($param) {
         };
     };
 
-    return view('comic_detail', compact('socials', 'footer_lists',  'comics',  'single_comic'));
+    return view('comic_details', compact('socials', 'footer_lists',  'comics',  'single_comic'));
 })->name('comic_details');
